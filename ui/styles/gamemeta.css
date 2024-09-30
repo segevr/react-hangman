@@ -1,0 +1,28 @@
+
+.game-meta {
+    background-color: rgb(225, 255, 208);
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+.guesses-label {
+    margin-right: 8px;
+    font-size: 1.2rem;
+    color: rgb(17, 66, 17);
+}
+
+.guesses-value {
+    font-size: 1.4rem;
+    color: rgb(17, 66, 17);
+    text-shadow: 2px 2px rgb(192, 235, 168);
+}
+
+.danger-box {
+    background: red;
+    font-weight: 700;
+}
+
+.danger-text {
+    text-shadow: 2px 2px rgb(31, 31, 31);
+    color: white;
+}

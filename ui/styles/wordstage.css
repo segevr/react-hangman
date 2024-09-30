@@ -1,0 +1,25 @@
+.word-stage {
+    display: flex;
+    justify-content: center;
+    font-size: 4.5rem;
+    letter-spacing: 2rem;
+}
+
+.stage-letter {
+    display: inline-block;
+}
+
+@keyframes letterReveal {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.stage-letter.revealed {
+    animation: letterReveal 0.5s ease-in-out forwards;
+}

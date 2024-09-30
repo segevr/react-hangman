@@ -1,0 +1,29 @@
+.main-panel {
+    max-width: 600px;
+}
+
+.button-link {
+    color: white;
+    text-decoration: none;
+}
+
+.page-header {
+    text-align: center;
+    font-size: 3.4rem;
+    background: rgb(113, 165, 233);
+    color: white;
+    border-radius: 12px;
+    border-bottom: 4px solid rgb(194, 224, 255);
+    text-shadow: 3px 3px rgb(144, 185, 238);
+}
+
+.lose {
+    background: rgb(95, 95, 95);
+    text-shadow: 3px 3px rgb(148, 148, 148);
+    border-bottom: 4px solid rgb(138, 138, 138);
+}
+
+.hero-image {
+    border-radius: 12px;
+    margin-top: 2rem;
+}
