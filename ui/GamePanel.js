@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import LettersGrid from './LettersGrid';
 import WordStage from './WordStage';
 import GameMeta from './GameMeta';
+import StickmanGraphic from './StickmanGraphic';
 
 export default function GamePanel() {
     const [guesses, setGuesses] = useState(0);
@@ -64,6 +65,7 @@ export default function GamePanel() {
     return (
         <div className="main-panel mx-auto my-4" style={{ maxWidth: '600px' }}>
             <Container>
+                <StickmanGraphic guesses={guesses} />
                 <GameMeta guesses={guesses} />
                 <WordStage word={wordMask} />
                 <hr className='mt-12 mb-12' />
